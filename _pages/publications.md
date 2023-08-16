@@ -9,6 +9,6 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ https://www.ncbi.nlm.nih.gov/myncbi/1To_q2q7ZkKQm/bibliography/public/ }} %}
+{% bibliography -f {{  site.scholar.bibliography }} %}
 
 </div>
